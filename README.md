@@ -17,7 +17,7 @@ Ce dépôt contient 11 travaux pratiques indépendants en langage C :
 - [TP10](./TP10/) - [Sujet](./TP10/TP10.pdf) : Fichiers
 - [TP11](./TP11/) - [Sujet](./TP11/TP11.pdf) : Généricité
 - [TP12](./TP12/) - [Sujet](./TP12/TP12.pdf) : Listes doublément chaînées
-- 
+
 ## Droits d'auteur
 
 Les sujets des travaux pratiques (fichiers TP*.pdf) sont tous droits réservés à l'[Université Paris Cité](https://u-paris.fr/).
