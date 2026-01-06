@@ -5,7 +5,7 @@ Learning C language from training sheets
 
 Ce dépôt contient 11 travaux pratiques indépendants en langage C :
 
-- [TP1](./TP1/) - [Sujet](./TP1/TP1.pdf) : Introduction au langage C
+- [TP1](./TP1/) - [Sujet](./TP1/TP1.pdf) : Introduction au C, typage
 - [TP2](./TP2/) - [Sujet](./TP2/TP2.pdf) : Tableaux, enum, struct
 - [TP3](./TP3/) - [Sujet](./TP3/TP3.pdf) : Tableaux et structures, aléatoire
 - [TP4](./TP4/) - [Sujet](./TP4/TP4.pdf) : Pointeurs
@@ -15,7 +15,8 @@ Ce dépôt contient 11 travaux pratiques indépendants en langage C :
 - [TP8](./TP8/) - [Sujet](./TP8/TP8.pdf) : Polynômes
 - [TP9](./TP9/) - [Sujet](./TP9/TP9.pdf) : Arbres binaires
 - [TP10](./TP10/) - [Sujet](./TP10/TP10.pdf) : Fichiers
-- [TP11](./TP11/) - [Sujet](./TP11/TP11.pdf) : Listes doublément chaînées
+- [TP11](./TP11/) - [Sujet](./TP11/TP11.pdf) : Généricité
+- [TP12](./TP12/) - [Sujet](./TP12/TP12.pdf) : Listes doublément chaînées
 - 
 ## Droits d'auteur
 
