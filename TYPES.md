@@ -5,28 +5,29 @@ _On a noté en gras avec un astérisque (\*) les types qui seront utilisés dans
 
 ## Types basiques entiers
 
--------------------------------------------------------------
-| Classe             | Nom systématique   | Autres noms |
-| ------------------ | ------------------ | ----------- |
-| Entiers non signés | **_Bool**\*        | bool        |
-| Entiers non signés | unsigned char      |             |
-| Entiers non signés | unsigned short     |             |
-| Entiers non signés | **unsigned int**\* | unsigned    |
-| Entiers non signés | unsigned long      |             |
-| Entiers non signés | unsigned long long |             |
-| Entiers signés     | **char**\*         |             |
-| Entiers signés     | signed char        |             |
-| Entiers signés     | signed short       | short       |
-| Entiers signés     | **signed int**\*   | int         |
-| Entiers signés     | signed long        | long        |
-| Entiers signés     | signed long long   | long long   |
--------------------------------------------------------------
+------------------------------------------------------------------------------
+| Classe             | Nom systématique   | Autres noms | Lecture dans printf |
+| ------------------ | ------------------ | ----------- |---------------------|
+| Entiers non signés | **_Bool**\*        | bool        | %u                  |
+| Entiers non signés | unsigned char      |             | %u                  |
+| Entiers non signés | unsigned short     |             | %u                  |
+| Entiers non signés | **unsigned int**\* | unsigned    | %u                  |
+| Entiers non signés | unsigned long      |             | %lu                 |
+| Entiers non signés | unsigned long long |             | %llu                |
+| Entiers non signés | **size_t**\*       |             | %zu                 |
+| Entiers signés     | **char**\*         |             | %c / %d             |
+| Entiers signés     | signed char        |             | %d                  |
+| Entiers signés     | signed short       | short       | %d                  |
+| Entiers signés     | **signed int**\*   | int         | %d                  |
+| Entiers signés     | signed long        | long        | %ld                 |
+| Entiers signés     | signed long long   | long long   | %lld                |
+-------------------------------------------------------------------------------
 
 Il n'y a pas de garantie sur le nombre d'octets occupé par une valeur d'un certain type. Autrement dit, la taille d'un `int` peut varier d'une machine à une autre. Cependant, les règles suivantes sont garanties par la norme C :
 - La taille d'un `char` est toujours de 1 octet.
 Il n'y a pas de garantie sur les valeurs possibles pour les types et sur comment elles se comparent entre elles _(même si on a toujours "l'inclusion" de types, comme en Java)_.
 
-**Librairie :** Pour utiliser le type `bool`, il faut inclure la librairie `<stdbool.h>`.
+**Librairie :** Pour utiliser le type `bool`, il faut inclure la librairie `<stdbool.h>`. Pour utiliser le type `size_t`, il faut inclure la librairie `<stddef.h>`.
 
 ## Types basiques flottants (réels)
 
