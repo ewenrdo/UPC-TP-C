@@ -23,4 +23,4 @@ Ce dépôt contient 12 travaux pratiques indépendants en langage C :
 Les sujets des travaux pratiques (fichiers TP*.pdf) sont tous droits réservés à l'[Université Paris Cité](https://u-paris.fr/).
 
 **Merci de ne pas utiliser mes exercices à des fins de triche. C'est illégal et contraire à l'éthique de l'open-source.**
-_Copilot n'a été utilisé que pour la génération de l'arborescence du README.md._
+_Copilot n'a été utilisé que pour la génération de l'arborescence du README.md, sauf mention contraire._
