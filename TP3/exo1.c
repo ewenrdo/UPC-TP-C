@@ -27,6 +27,8 @@ void affiche_com(Commande c);
 void affiche_exp(Commande t[], size_t taille);
 int nbr_en_cours(Commande t[], size_t taille);
 int cout_validees(Commande t[], size_t taille);
+Commande change_prix(Commande c, int newPrice);
+void expedie_tout(Commande tab[], size_t n);
 
 // Implémentation
 
@@ -104,6 +106,19 @@ Commande com_alea(int num)
     return res;
 }
 
+Commande change_prix(Commande c, int newPrice) {
+    c.prix_prod = newPrice;
+    return c;
+}
+
+void expedie_tout(Commande tab[], size_t n) {
+    for (size_t i = 0; i < n; i++)
+    {
+        tab[i].etat_com = EXPIDEE;
+    }
+    
+}
+
 // Tests
 /*int main(void)
 {
@@ -132,19 +147,6 @@ Commande com_alea(int num)
     printf("Nombre en cours : %d\n", nbr_en_cours(tab, NBC));
     printf("Coût des validées : %d\n", cout_validees(tab, NBC));
 }*/
-
-Commande change_prix(Commande c, int newPrice) {
-    c.prix_prod = newPrice;
-    return c;
-}
-
-void expedie_tout(Commande tab[], size_t n) {
-    for (size_t i = 0; i < n; i++)
-    {
-        tab[i].etat_com = EXPIDEE;
-    }
-    
-}
 
 int main(void)
 {
