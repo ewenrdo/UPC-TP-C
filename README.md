@@ -20,7 +20,8 @@ Ce dépôt contient 12 travaux pratiques indépendants en langage C :
 
 ## Droits d'auteur
 
-Les sujets des travaux pratiques (fichiers TP*.pdf) sont tous droits réservés à l'[Université Paris Cité](https://u-paris.fr/).
+Les sujets des travaux pratiques d'entrainement (fichiers Training/TP*.pdf) sont tous droits réservés à l'[Université Paris Cité](https://u-paris.fr/).
+Les autres sont réalisés par [Juliusz Chroboczek](https://www.irif.fr/~jch/enseignement/lc/) dans le cadre de son enseignement à l'Université Paris Cité.
 
 **Merci de ne pas utiliser mes exercices à des fins de triche. C'est illégal et contraire à l'éthique de l'open-source.**
 _Copilot n'a été utilisé que pour la génération de l'arborescence du README.md, sauf mention contraire._
