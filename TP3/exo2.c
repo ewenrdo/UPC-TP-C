@@ -29,18 +29,16 @@ int main()
     }
 
     // Question 5
-    int depart_x = 100;
-    for (int i = 0; i < 200 ; i++) // largeur
-    {
-        int depart_y = 100;
-        for (int j = 0; j < 150; j++) // hauteur
-        {
-            gr_draw_point(depart_x, depart_y, 230, 34, 83);
-            depart_y++;
+    int depart_x = 100;  // Position de départ en x
+    int depart_y = 100;  // Position de départ en y
+
+    for (int i = 0; i < 200; i++) {  // Largeur du carré (200 pixels)
+        for (int j = 0; j < 200; j++) {  // Hauteur du carré (200 pixels)
+            gr_draw_point(depart_x + i, depart_y + j, 0, 34, 83);  // Couleur (0, 34, 83) - une couleur bleue
         }
-        depart_x++;
-        
     }
+
+
 
     // Question 
 
