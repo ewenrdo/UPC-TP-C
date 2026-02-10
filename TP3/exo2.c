@@ -5,8 +5,10 @@ int main()
 {
     gr_init(512, 384);
     // Question 1
-    gr_draw_point(100, 100, 0, 0, 0);
-    gr_draw_point(200, 200, 0, 0, 0);
+    for (int i = 0; i <= 100; i++)
+    {
+        gr_draw_point(100, 100+i, 0, 0, 0);
+    }
 
     // Question 2
     for (int i = 0; i <= 100; i++)
@@ -28,12 +30,12 @@ int main()
 
     // Question 5
     int depart_x = 100;
-    int depart_y = 100
-    for (int i = 0; i <= 100; i++)
+    for (int i = 0; i < 200 ; i++) // largeur
     {
-        for (int j = 0; j < 150; i++)
+        int depart_y = 100;
+        for (int j = 0; j < 150; j++) // hauteur
         {
-            gr_draw_point(depart_x, depart_y, 230, 34, 83)
+            gr_draw_point(depart_x, depart_y, 230, 34, 83);
             depart_y++;
         }
         depart_x++;

@@ -5,14 +5,14 @@ LDFLAGS=`pkg-config --libs gtk+-3.0`
 all: exemple
 
 exemple: exemple.o graphiques.o
-	gcc $(CFLAGS) -o exemple exemple.o graphiques.o $(LDFLAGS)
+		gcc $(CFLAGS) -o exemple exemple.o graphiques.o $(LDFLAGS)
 
 exemple.o: exemple.c
-	gcc $(CFLAGS) -c exemple.c
+		gcc $(CFLAGS) -c exemple.c
 
 graphiques.o: graphiques.c
-	gcc $(CFLAGS) -c graphiques.c
+		gcc $(CFLAGS) -c graphiques.c
 
 .PHONY: clean
 clean:
-	rm -f *~ *.o exemple
+		rm -f *~ *.o exemple
