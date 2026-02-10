@@ -31,28 +31,6 @@ int main()
     return 0;
 }
 
-// Fonction pour calculer le nombre d'étapes de la séquence de Syracuse pour un nombre donné
-unsigned syracuse(int m)
-{
-    int res = m;
-    unsigned flight_time = 0;
-
-    while (res != 1)  // La séquence s'arrête lorsqu'on atteint 1
-    {
-        flight_time++;  // Incrémentation du nombre d'étapes
-        if (res % 2 == 0)
-        {
-            res = res / 2;  // Si m est pair, on divise par 2
-        }
-        else
-        {
-            res = 3 * res + 1;  // Si m est impair, on applique la formule 3m + 1
-        }
-    }
-
-    return flight_time;  // Retourne le nombre d'étapes avant d'atteindre 1
-}
-
 unsigned syracuse(int m)
 {
     int res = m;
