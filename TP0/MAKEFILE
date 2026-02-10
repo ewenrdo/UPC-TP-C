@@ -1,0 +1,8 @@
+zigoto: main.o util.o
+	gcc -Wall -o zigoto main.o util.o
+
+main.o: main.c util.h
+	gcc -Wall -c main.c
+
+util.o: util.c util.h
+	gcc -Wall -c util.c

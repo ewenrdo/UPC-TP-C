@@ -1,0 +1,1 @@
+_Fichier pour comprendre certaines notions, tests seulement_
